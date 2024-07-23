@@ -21,7 +21,7 @@ public class CartTest {
 	    public void setup() {
 
 	    	driver = new ChromeDriver();
-	        //driver.manage().window().maximize();
+	        driver.manage().window().maximize();
 	    	driver.get("https://www.saucedemo.com/v1/");
 	        loginPage = new SwagLoginPage(driver);
 	        cartPage = new CartPage(driver);
