@@ -27,7 +27,7 @@ public class SwagLoginTest {
 	    @BeforeMethod
 	    public void setup() {
 	        driver = new ChromeDriver();
-	        //driver.manage().window().maximize();
+		driver.manage().window().maximize();
 	        driver.get("https://www.saucedemo.com/v1/");
 	        loginPage = new SwagLoginPage(driver);
 	        homepage = new HomePage(driver);
