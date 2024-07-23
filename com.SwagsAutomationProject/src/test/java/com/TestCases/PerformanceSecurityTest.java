@@ -19,7 +19,7 @@ public class PerformanceSecurityTest {
     @BeforeMethod
     public void setup() {
         driver = new ChromeDriver();
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         loginPage = new SwagLoginPage(driver);
         perfSecPage = new PerformanceSecurityPage(driver);
         driver.get("https://www.saucedemo.com/v1/");
