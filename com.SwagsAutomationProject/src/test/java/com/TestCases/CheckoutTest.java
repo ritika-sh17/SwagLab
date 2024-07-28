@@ -14,7 +14,7 @@ import swagPages.SwagLoginPage;
 
 public class CheckoutTest {
 
-	WebDriver driver;
+    WebDriver driver;
     SwagLoginPage loginPage;
     CartPage cartPage;
     CheckoutPage checkoutPage;
