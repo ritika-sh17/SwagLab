@@ -40,8 +40,7 @@ public class ProductTest {
     public void testProductSorting() {
         productPage.sortProducts("hilo");
         List<WebElement> products = productPage.getAllProducts();
-        // Add assertions to verify the products are sorted by high to low price.
-        // You can add detailed checks if you extract the product prices and verify the sorting order.
+       
     }
 
     @Test
