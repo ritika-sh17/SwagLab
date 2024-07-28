@@ -40,7 +40,6 @@ public class CheckoutTest {
         checkoutPage.clickContinue();
         checkoutPage.clickFinish();
         
-        // Verify that the checkout was successful (depends on specific confirmation message or URL)
         Assert.assertTrue(driver.getCurrentUrl().contains("checkout-complete"), "Checkout was not completed successfully.");
     }
 
